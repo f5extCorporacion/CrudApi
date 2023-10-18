@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root{
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+}
+
+main .card{
+    display:grid ;
+    grid-column: 1;
+    grid-row: 6;
+    border-color: aquamarine;
+    border: 10px;
+    background: #fefefe;
+    gap: 1rem;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    
+   }
+   main .menu .logo h1{
+    font-size: 20px;
+   }
+   
+   main .card h2{
+    padding: 10px;
+    font-size: 25px;
+     }
+
+     main .listas{
+        display: flex;
+        gap: 1rem;
+        padding: 10px;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        
+     }
+     body{
+        background: url("./assets/fondo.jpg");
+     }
+     
+   main .card span p{
+    color: rgb(180, 182, 182);
+   }
+
+   @media only screen and (max-width: 600px) {
+    body {
+        background-color: lightblue;
+      }
+    main .listas{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        
+     }
+     main .card{
+       display: flex;
+        gap: 1rem;
+        border-radius: 20px;
+        justify-content: center;
+        align-items: center;
+        
+       }
+   }
