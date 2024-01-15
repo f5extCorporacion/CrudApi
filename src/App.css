@@ -58,12 +58,19 @@ main .card{
         
         
      }
-     main .card{
+ 
+       main .card{
        display: flex;
         gap: 1rem;
         border-radius: 20px;
         justify-content: center;
         align-items: center;
         
+       }
+       .menu .buttom .btn1{
+           color:white;
+           font-size:30px;
+           padding:1rem;
+           
        }
    }
