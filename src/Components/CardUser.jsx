@@ -5,8 +5,8 @@ const CardUser = ({users, deletePropl, updatePropl,modalopen}) => {
   return (
     <div className="card  ">
          <div className="imagen">
-           {/*<img className="imgCard rounded-lg w-[200px] h-[260px]" src={users?.image_url} all=""  />
-        */} </div>
+           <img className="imgCard rounded-lg w-[200px] h-[260px]" src={users?.image_url} all=""  />
+         </div>
          <div className="cardbody flex flex-col p-3 ">
 
               
@@ -15,10 +15,10 @@ const CardUser = ({users, deletePropl, updatePropl,modalopen}) => {
               {users?.first_name} {users?.last_name} <hr /></h2>
 
             <span> <p>Email</p>{users?.email}</span>
-             <hr /> </span>
+              <span> <p>Birthday</p>{users?.birthday} <hr /> </span>
              
             <div className=" flex gap-1 flex-row-reverse">
-              <span> <p>Birthday</p>{users?.birthday}
+            
             <button className="p-2 bg-red-400 rounded-xl  border border-slate-500" onClick={()=>{deletePropl(users.id)}
                   } > <ion-icon name="trash-outline"></ion-icon> </button>  
 
