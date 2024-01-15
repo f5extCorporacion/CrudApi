@@ -5,7 +5,7 @@ const CardUser = ({users, deletePropl, updatePropl,modalopen}) => {
   return (
     <div className="card  ">
          <div className="imagen">
-           <img className="imgCard rounded-lg w-[200px] h-[260px]" src={users?.image_url} all=""  />
+           <img className="imgCard rounded-lg w-[100%] h-[50%]" src={users?.image_url} all=""  />
          </div>
          <div className="cardbody flex flex-col p-3 ">
 
