@@ -18,6 +18,7 @@ main .card{
     border-radius: 20px;
     justify-content: center;
     align-items: center;
+    heigth:390px;
     
    }
    main .menu .logo h1{
