@@ -85,7 +85,13 @@ main .card{
         justify-content: center;
         align-items: center;
         font-size:12px;
-        
+       }
+       main .card h2{
+           font-size:12px;
+       }
+       main .card p img{
+           width:150px;
+           heigth:150px;
        }
        .menu .buttom .btn1{
            display:flex;
