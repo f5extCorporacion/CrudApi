@@ -141,7 +141,7 @@ const HandleRead =()=>{
   return (
       <main>
 
-      <div className="menu flex justify-  p-1 justify-between border-x-black">
+      <div className="menu flex justify-center bg-blue-400  p-1 justify-between border-x-black">
           <div className="logo text-lg py-2 px-6 "> CRUD</div>
 
            <div className="buttom">
