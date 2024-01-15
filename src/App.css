@@ -80,7 +80,6 @@ main .card{
     body {
         display:flex;
         background: rgb(40,41,42);
-background: linear-gradient(0deg, rgba(40,41,42,1) 0%, rgba(68,67,66,1) 100%);
          heigth:100%;
         width:100%;
       }
