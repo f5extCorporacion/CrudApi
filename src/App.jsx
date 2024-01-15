@@ -141,12 +141,11 @@ const HandleRead =()=>{
   return (
       <main>
 
-      <div className="menu flex justify-center bg-cyan-700  p-1 justify-between border-x-black">
-          <div className="logo text-lg py-2 px-6 "> <ion-icon name="beaker-outline"></ion-icon> </div>
+      <div className="menu flex justify-center   p-1 justify-between border-x-black">
+          <div className="logo text-lg py-2 px-6 ">  </div>
 
            <div className="buttom">
-            <button className='bg-cyan-500 py-2 px-6 rounded-sm text-white
-            font-blod m-5' onClick={()=> setModal(true)}><ion-icon name="add-circle-outline"></ion-icon></button>
+            <button className='btn1' onClick={()=> setModal(true)}><ion-icon name="add-circle-outline"></ion-icon></button>
            </div>
       </div>
         {
