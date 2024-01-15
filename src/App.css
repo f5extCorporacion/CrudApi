@@ -39,7 +39,8 @@ main .card{
         
      }
      body{
-        background: url("./assets/fondo.jpg");
+        background: url("https://i.gifer.com/IrF.gif");
+        background-size:cover;
      }
      
    main .card span p{
