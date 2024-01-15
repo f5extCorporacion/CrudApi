@@ -108,7 +108,7 @@ main .card{
        main .card h2{
            font-size:12px;
        }
-       main .card p img{
+       main .card img{
            display:flex;
           justify-content: center;
            align-items: center;
