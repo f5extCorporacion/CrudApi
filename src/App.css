@@ -79,7 +79,8 @@ main .card{
    @media only screen and (max-width: 600px) {
     body {
         display:flex;
-        background: rgb(40,41,42);
+        background: url("https://i.gifer.com/76YM.gif");
+        background-size:cover;
          heigth:100%;
         width:100%;
       }
