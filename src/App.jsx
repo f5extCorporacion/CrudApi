@@ -146,7 +146,7 @@ const HandleRead =()=>{
 
            <div className="buttom flex bg-slate-100 rounded-2xl border-red-600">
             <button className='btn1 text-white-100 text-5xl' p-1 bg-slate-100 onClick={()=> setModal(true)}>
-              <ion-icon name="add-circle-outline"> <p>Nuevo user <p></ion-icon></button>
+              <ion-icon name="add-circle-outline"> <p>Nuevo user. <p></ion-icon></button>
            </div>
       </div>
         {
