@@ -145,7 +145,8 @@ const HandleRead =()=>{
           <div className="logo text-lg py-2 px-6 ">  </div>
 
            <div className="buttom flex bg-slate-100 rounded-2xl border-red-600">
-            <button className='btn1 text-white-100 text-5xl' p-1 bg-slate-100 onClick={()=> setModal(true)}><ion-icon name="add-circle-outline"></ion-icon></button>
+            <button className='btn1 text-white-100 text-5xl' p-1 bg-slate-100 onClick={()=> setModal(true)}>
+              Agregar Usuario<ion-icon name="add-circle-outline"></ion-icon></button>
            </div>
       </div>
         {
