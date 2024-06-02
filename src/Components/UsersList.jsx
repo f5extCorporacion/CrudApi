@@ -1,5 +1,4 @@
 
-/*https://www.youtube.com/watch?v=XNRwOtIpR10 */
 
 import CardUser from "./CardUser"
 
